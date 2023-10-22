@@ -69,11 +69,8 @@ body {
   margin: 0 5%;
 }
 
-#credInfo a{
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
+#credInfo ul{
+  list-style-type: none;
 }
 
 footer{
