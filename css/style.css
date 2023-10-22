@@ -293,7 +293,11 @@ td, th {
   padding: 10px;
 }
 
-#sText{
+#rText{
+  margin: 2% 10% 2% 10%;
+}
+
+#hText{
   margin: 2% 10% 2% 10%;
 }
 
