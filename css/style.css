@@ -150,6 +150,17 @@ footer{
   text-align: center;
 }
 
+#outPic{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#intPic{
+  width: 800px;
+  height: auto;
+}
+
 td, th {
 	border: 1px solid;
   }
@@ -173,4 +184,43 @@ td, th {
 
 #firstList ul{
   list-style-type: none;
+}
+
+#secList{
+  float: center;
+  box-sizing: border-box;
+  background-color: none;
+  padding 30px;
+  border: 3px solid white;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  font-size: 20px;
+}
+
+#secList ul{
+  list-style-type: none;
+}
+
+#thirdList{
+  float: center;
+  box-sizing: border-box;
+  background-color: none;
+  padding 30px;
+  border: 3px solid white;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  font-size: 20px;
+}
+
+#thirdList ul{
+  list-style-type: none;
+}
+
+footer{
+  clear: left;
+  background-image: linear-gradient(#c41a0e, black);
+  padding: 10px;
+  color: white;
 }
