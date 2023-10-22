@@ -88,3 +88,61 @@ footer{
   height: 400px;
   border-radius: 20px 20px;
 }
+
+#navbarTS {
+  background-image: linear-gradient(black, #c41a0e);
+  overflow: hidden;
+}
+
+#navbarTS-insert {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#navbarTS ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#navbarTS ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#navbarTS ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbarTS ul li a:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+#onPageTS {
+  text-decoration: underline;
+}
+
+#bodyTS {
+  color: black;
+  font-family: cochin;
+  background-color: #c41a0e;
+  text-align: center;
+}
+
+td, th {
+	border: 1px solid;
+  }
+  
+#specs{
+  margin-left: auto;
+  margin-right: auto;
+}
