@@ -131,6 +131,18 @@ footer{
   text-decoration: underline;
 }
 
+#bioTS{
+  float: center;
+  box-sizing: border-box;
+  background-color: none;
+  padding 30px;
+  border: 3px solid white;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  font-size: 20px;
+}
+
 #bodyTS {
   color: black;
   font-family: cochin;
@@ -145,4 +157,20 @@ td, th {
 #specs{
   margin-left: auto;
   margin-right: auto;
+}
+
+#firstList{
+  float: center;
+  box-sizing: border-box;
+  background-color: none;
+  padding 30px;
+  border: 3px solid white;
+  width: 75%;
+  height: auto;
+  margin: auto;
+  font-size: 20px;
+}
+
+#firstList ul{
+  list-style-type: none;
 }
