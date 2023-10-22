@@ -155,6 +155,11 @@ footer{
   height: auto;
 }
 
+#disPic{
+  width: 800px;
+  height: auto;
+}
+
 td, th {
 	border: 1px solid;
   }
@@ -258,13 +263,31 @@ td, th {
   text-align: center;
 }
 
-#smSun{
+#smSun1{
   width: 40%;
   height: auto;
   padding: 10px;
 }
 
-#smFall{
+#smSun2{
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}
+
+#smFall1{
+  width: 25%;
+  height: auto;
+  padding: 10px;
+}
+
+#smFall2{
+  width: 25%;
+  height: auto;
+  padding: 10px;
+}
+
+#smFall3{
   width: 25%;
   height: auto;
   padding: 10px;
