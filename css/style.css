@@ -127,10 +127,6 @@ footer{
   background-color: rgba(0,0,0,0.5);
 }
 
-#onPageTS {
-  text-decoration: underline;
-}
-
 #bioTS{
   float: center;
   box-sizing: border-box;
@@ -176,9 +172,9 @@ td, th {
   background-color: none;
   padding 30px;
   border: 3px solid white;
-  width: 75%;
+  width: 70%;
   height: auto;
-  margin: auto;
+  margin: 5% 13% 5% 13%;
   font-size: 20px;
 }
 
@@ -192,9 +188,9 @@ td, th {
   background-color: none;
   padding 30px;
   border: 3px solid white;
-  width: 75%;
+  width: 70%;
   height: auto;
-  margin: auto;
+  margin: 5% 13% 1% 13%;
   font-size: 20px;
 }
 
@@ -208,9 +204,9 @@ td, th {
   background-color: none;
   padding 30px;
   border: 3px solid white;
-  width: 75%;
+  width: 72%;
   height: auto;
-  margin: auto;
+  margin: 5% 13% 5% 13%;
   font-size: 20px;
 }
 
@@ -218,9 +214,81 @@ td, th {
   list-style-type: none;
 }
 
-footer{
+#footerTS{
   clear: left;
   background-image: linear-gradient(#c41a0e, black);
+  padding: 10px;
+  color: white;
+}
+
+#navbarSM {
+  background-image: linear-gradient(black, #f5f5dc);
+  overflow: hidden;
+}
+
+#navbarSM-insert {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#navbarSM ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#navbarSM ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#navbarSM ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbarSM ul li a:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+#bodySM {
+  color: black;
+  font-family: cochin;
+  background-color: #f5f5dc;
+  text-align: center;
+}
+
+#smSun{
+  width: 40%;
+  height: auto;
+  padding 30px;
+}
+
+#smFall{
+  width: 25%;
+  height: auto;
+  padding 30px;
+}
+
+#sText{
+  margin: 2% 10% 2% 10%;
+}
+
+#oHigh ul{
+  list-style-type: none;
+}
+
+#footerSM{
+  clear: left;
+  background-image: linear-gradient(#f5f5dc, black);
   padding: 10px;
   color: white;
 }
