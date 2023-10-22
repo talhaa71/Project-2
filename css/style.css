@@ -1,5 +1,5 @@
 #navbar {
-  background-image: linear-gradient(black, blue);;
+  background-image: linear-gradient(black, #4C8DD8);
   overflow: hidden;
 }
 
@@ -33,15 +33,52 @@
 }
 
 #navbar ul li a:hover {
-  background-color: #000;
+  background-color: rgba(0,0,0,0.5);
 }
 
-#onpage {
-  text-decoration: underline overline;
+#onPage {
+  text-decoration: underline;
 }
 
 body {
   color: white;
   font-family: cochin;
   background-color: #4C8DD8;
+  text-align: center;
 }
+
+#genInfo{
+  float: left;
+  box-sizing: border-box;
+  background-color: black;
+  padding 30px;
+  border: 10px dashed red;
+  width: 40%;
+  height: auto;
+  margin: 0 5%;
+}
+
+#credInfo{
+  float: left;
+  box-sizing: border-box;
+  background-color: black;
+  padding 30px;
+  border: 10px dashed red;
+  width: 40%;
+  height: auto;
+  margin: 0 5%;
+}
+
+#credInfo a{
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer{
+  clear: left;
+  background-image: linear-gradient(#4C8DD8, black);
+  padding: 10px
+}
+
